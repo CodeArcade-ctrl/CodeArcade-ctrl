@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Power demand reaches a limit",
+    "nl": "Vermogensvraag bereikt een grens"
+  },
+  "hint": {
+    "en": "Use consistent watts for the measured power and limit.",
+    "nl": "Gebruik watt voor zowel het gemeten vermogen als de grens."
+  },
+  "args": [
+    {
+      "name": "power_w",
+      "type": "number",
+      "title": {
+        "en": "Current power (W)",
+        "nl": "Huidig vermogen (W)"
+      }
+    },
+    {
+      "name": "power_limit_w",
+      "type": "number",
+      "title": {
+        "en": "Power limit (W)",
+        "nl": "Vermogensgrens (W)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "[[power_w]] W reaches a power limit of [[power_limit_w]] W",
+    "nl": "[[power_w]] W bereikt een vermogensgrens van [[power_limit_w]] W"
+  }
+}

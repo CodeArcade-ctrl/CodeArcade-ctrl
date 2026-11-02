@@ -1,0 +1,1 @@
+Zet energieverbruik om in duidelijke schattingen. Bereken de kosten van een meting, voorspel maanduitgaven op basis van dagverbruik en vergelijk die met een budget. Reageer met Flow-voorwaarden op een vermogensgrens. Schattingen zijn afhankelijk van de ingevoerde tarieven en metingen.

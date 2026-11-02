@@ -1,0 +1,36 @@
+name: Validate Energy Budget
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'homey-apps/energy-budget/**'
+      - '.github/workflows/energy-budget.yml'
+  pull_request:
+    paths:
+      - 'homey-apps/energy-budget/**'
+      - '.github/workflows/energy-budget.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: homey-apps/energy-budget
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Run calculation tests
+        run: npm test
+      - name: Install Homey CLI
+        run: npm install --global homey
+      - name: Build Homey app
+        run: npm run build
+      - name: Validate App Store package
+        run: homey app validate --level publish

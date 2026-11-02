@@ -22,6 +22,7 @@ I also build bilingual Homey Flow apps for practical energy, water, and indoor-c
 - [Battery Guardian](https://github.com/CodeArcade-ctrl/battery-guardian) — estimate battery runtime, charging time, and reserve.
 - [Water Guard](https://github.com/CodeArcade-ctrl/water-guard) — convert water-meter pulses and estimate flow and cost.
 - [Dewpoint Comfort](https://github.com/CodeArcade-ctrl/dewpoint-comfort) — calculate dew point and condensation margins.
+- [Energy Budget](https://github.com/CodeArcade-ctrl/CodeArcade-ctrl/tree/main/homey-apps/energy-budget) — estimate energy costs and forecast a household budget.
 
 ## Home Assistant
 

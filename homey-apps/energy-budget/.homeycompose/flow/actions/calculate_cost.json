@@ -1,0 +1,50 @@
+{
+  "title": {
+    "en": "Estimate energy cost",
+    "nl": "Schat energiekosten"
+  },
+  "hint": {
+    "en": "Enter 0 when you have no daily fixed charge. No tariff data is fetched automatically.",
+    "nl": "Voer 0 in als je geen dagelijkse vaste kosten hebt. Er worden geen tarieven automatisch opgehaald."
+  },
+  "args": [
+    {
+      "name": "kwh",
+      "type": "number",
+      "title": {
+        "en": "Energy used (kWh)",
+        "nl": "Verbruikte energie (kWh)"
+      }
+    },
+    {
+      "name": "price_per_kwh",
+      "type": "number",
+      "title": {
+        "en": "Price per kWh",
+        "nl": "Prijs per kWh"
+      }
+    },
+    {
+      "name": "daily_fixed_charge",
+      "type": "number",
+      "title": {
+        "en": "Daily fixed charge (enter 0 if none)",
+        "nl": "Dagelijkse vaste kosten (voer 0 in indien niet van toepassing)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Estimate [[kwh]] kWh at [[price_per_kwh]] per kWh plus [[daily_fixed_charge]] in daily fixed charges",
+    "nl": "Schat [[kwh]] kWh bij [[price_per_kwh]] per kWh plus [[daily_fixed_charge]] dagelijkse vaste kosten"
+  },
+  "tokens": [
+    {
+      "name": "estimated_cost",
+      "type": "number",
+      "title": {
+        "en": "Estimated cost",
+        "nl": "Geschatte kosten"
+      }
+    }
+  ]
+}

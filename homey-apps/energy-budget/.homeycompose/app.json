@@ -1,0 +1,49 @@
+{
+  "id": "com.codearcade.energybudget",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "sdk": 3,
+  "brandColor": "#315c49",
+  "name": {
+    "en": "Energy Budget",
+    "nl": "Energy Budget"
+  },
+  "description": {
+    "en": "See the cost of using energy and keep spending in view.",
+    "nl": "Krijg zicht op energiekosten en houd je uitgaven bij."
+  },
+  "category": "energy",
+  "tags": {
+    "en": [
+      "energy",
+      "electricity cost",
+      "energy budget",
+      "tariff",
+      "smart home"
+    ],
+    "nl": [
+      "energie",
+      "stroomkosten",
+      "energiebudget",
+      "tarief",
+      "smart home"
+    ]
+  },
+  "images": {
+    "small": "/assets/store-small.png",
+    "large": "/assets/store-large.png",
+    "xlarge": "/assets/store-xlarge.png"
+  },
+  "author": {
+    "name": "CodeArcade"
+  },
+  "source": "https://github.com/CodeArcade-ctrl/CodeArcade-ctrl/tree/main/homey-apps/energy-budget",
+  "homepage": "https://github.com/CodeArcade-ctrl/CodeArcade-ctrl/tree/main/homey-apps/energy-budget",
+  "bugs": {
+    "url": "https://github.com/CodeArcade-ctrl/CodeArcade-ctrl/issues"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "title": {
+    "en": "Forecast energy cost",
+    "nl": "Voorspel energiekosten"
+  },
+  "hint": {
+    "en": "A straight-line estimate using your average daily use and supplied tariff. Enter 0 for no daily fixed charge.",
+    "nl": "Een lineaire schatting met je gemiddelde dagverbruik en opgegeven tarief. Voer 0 in als er geen dagelijkse vaste kosten zijn."
+  },
+  "args": [
+    {
+      "name": "daily_kwh",
+      "type": "number",
+      "title": {
+        "en": "Average daily use (kWh)",
+        "nl": "Gemiddeld dagverbruik (kWh)"
+      }
+    },
+    {
+      "name": "price_per_kwh",
+      "type": "number",
+      "title": {
+        "en": "Price per kWh",
+        "nl": "Prijs per kWh"
+      }
+    },
+    {
+      "name": "days",
+      "type": "number",
+      "title": {
+        "en": "Days in period",
+        "nl": "Dagen in periode"
+      }
+    },
+    {
+      "name": "daily_fixed_charge",
+      "type": "number",
+      "title": {
+        "en": "Daily fixed charge (enter 0 if none)",
+        "nl": "Dagelijkse vaste kosten (voer 0 in indien niet van toepassing)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Forecast [[daily_kwh]] kWh per day for [[days]] days at [[price_per_kwh]] per kWh plus [[daily_fixed_charge]] daily fixed charges",
+    "nl": "Voorspel [[daily_kwh]] kWh per dag voor [[days]] dagen bij [[price_per_kwh]] per kWh plus [[daily_fixed_charge]] dagelijkse vaste kosten"
+  },
+  "tokens": [
+    {
+      "name": "monthly_energy_kwh",
+      "type": "number",
+      "title": {
+        "en": "Estimated energy (kWh)",
+        "nl": "Geschatte energie (kWh)"
+      }
+    },
+    {
+      "name": "monthly_cost",
+      "type": "number",
+      "title": {
+        "en": "Estimated cost",
+        "nl": "Geschatte kosten"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Translate energy use into clear estimates. Calculate the cost of a reading, project monthly spend from average daily usage, and compare the total with a budget. Use Flow conditions to react to a measured power limit. Estimates depend on the tariff and readings you provide.

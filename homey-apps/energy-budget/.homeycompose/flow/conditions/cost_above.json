@@ -1,0 +1,40 @@
+{
+  "title": {
+    "en": "Energy cost reaches a limit",
+    "nl": "Energiekosten bereiken een grens"
+  },
+  "hint": {
+    "en": "Compares the estimate using the price entered in this Flow card.",
+    "nl": "Vergelijkt de schatting met de prijs die op deze Flow-kaart is ingevoerd."
+  },
+  "args": [
+    {
+      "name": "kwh",
+      "type": "number",
+      "title": {
+        "en": "Energy used (kWh)",
+        "nl": "Verbruikte energie (kWh)"
+      }
+    },
+    {
+      "name": "price_per_kwh",
+      "type": "number",
+      "title": {
+        "en": "Price per kWh",
+        "nl": "Prijs per kWh"
+      }
+    },
+    {
+      "name": "cost_limit",
+      "type": "number",
+      "title": {
+        "en": "Cost limit",
+        "nl": "Kostengrens"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Cost of [[kwh]] kWh at [[price_per_kwh]] per kWh reaches [[cost_limit]]",
+    "nl": "Kosten van [[kwh]] kWh bij [[price_per_kwh]] per kWh bereiken [[cost_limit]]"
+  }
+}

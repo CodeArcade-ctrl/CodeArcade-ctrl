@@ -1,0 +1,42 @@
+{
+  "title": {
+    "en": "Calculate remaining energy budget",
+    "nl": "Bereken resterend energiebudget"
+  },
+  "hint": {
+    "en": "A negative result means the budget has been exceeded.",
+    "nl": "Een negatieve uitkomst betekent dat het budget is overschreden."
+  },
+  "args": [
+    {
+      "name": "budget",
+      "type": "number",
+      "title": {
+        "en": "Budget amount",
+        "nl": "Budgetbedrag"
+      }
+    },
+    {
+      "name": "spent",
+      "type": "number",
+      "title": {
+        "en": "Amount spent",
+        "nl": "Uitgegeven bedrag"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Calculate what remains from a [[budget]] budget after [[spent]]",
+    "nl": "Bereken wat overblijft van budget [[budget]] na uitgaven van [[spent]]"
+  },
+  "tokens": [
+    {
+      "name": "remaining_budget",
+      "type": "number",
+      "title": {
+        "en": "Budget remaining",
+        "nl": "Resterend budget"
+      }
+    }
+  ]
+}
