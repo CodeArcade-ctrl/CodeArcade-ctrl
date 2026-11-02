@@ -14,6 +14,15 @@ Ik maak praktische, privacyvriendelijke tools en open-sourceprojecten voor **Hom
 | [Release Note Forge](https://github.com/CodeArcade-ctrl/release-note-forge) | Turn commit subjects into editable release notes. | [Open the app](https://codearcade-ctrl.github.io/release-note-forge/) |
 | [Gradient Lab](https://github.com/CodeArcade-ctrl/gradient-lab) | Design CSS gradients with a live preview. | [Open the app](https://codearcade-ctrl.github.io/gradient-lab/) |
 
+## Homey
+
+I also build bilingual Homey Flow apps for practical energy, water, and indoor-climate calculations. Browse [my Homey projects](https://github.com/CodeArcade-ctrl?tab=repositories&q=homey):
+
+- [Solar Flow](https://github.com/CodeArcade-ctrl/solar-flow) — estimate solar self-consumption, exports, and savings.
+- [Battery Guardian](https://github.com/CodeArcade-ctrl/battery-guardian) — estimate battery runtime, charging time, and reserve.
+- [Water Guard](https://github.com/CodeArcade-ctrl/water-guard) — convert water-meter pulses and estimate flow and cost.
+- [Dewpoint Comfort](https://github.com/CodeArcade-ctrl/dewpoint-comfort) — calculate dew point and condensation margins.
+
 ## Home Assistant
 
 I also build focused integrations and themes for Home Assistant. Browse my [Home Assistant projects](https://github.com/CodeArcade-ctrl?tab=repositories&q=home-assistant) or explore these integrations:
